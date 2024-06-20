@@ -1,0 +1,24 @@
+.card {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ @media (max-width:600px){
+  .card {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+ 
+ }
+ 
+
+ 

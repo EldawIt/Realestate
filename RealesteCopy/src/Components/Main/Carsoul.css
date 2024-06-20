@@ -1,0 +1,23 @@
+.carsoul{
+  height: 700px;
+  width: 100%;
+}
+.carsoul img {
+  width: 100%;
+  height: 600px;
+  z-index: -100 !important;
+  opacity: 0.9;
+
+}
+ 
+@media (max-width: 600px) {
+  .carsoul img{
+   height: 500px;
+   width: 500px;
+  }
+  .carsoul .title-forcarsoul{
+    font-size: 30px !important;
+    left: 50px !important;
+    top: 200px !important;
+  }
+}

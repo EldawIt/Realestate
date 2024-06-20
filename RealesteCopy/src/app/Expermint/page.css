@@ -1,0 +1,14 @@
+.fade-top {
+  opacity: 0;  /* Initially invisible */
+  animation: fade-top 1s ease-in-out forwards;  /* Animation properties */
+}
+
+@keyframes fade-top {
+  from {
+    transform: translateY(-100%);  /* Translate element 100% upwards */
+  }
+  to {
+    opacity: 1;  /* Fully visible */
+    transform: translateY(0);  /* Reset translation */
+  }
+}

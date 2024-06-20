@@ -1,0 +1,39 @@
+.first {
+  width: 100%;
+  text-align: center;
+}
+.first h1{
+/* text-align: center; */
+font-size: 75px;
+ 
+}
+.card {
+  background-color: aliceblue !important;
+}
+@media(max-width:600px){
+  .card{
+    flex-direction: column !important;
+    justify-content: center !important;
+    margin-left: 15px !important;
+    gap: 20px !important;
+  }
+  .first{
+    position: relative;
+    bottom: 170px !important;
+  }
+ 
+}
+.fade-top {
+  animation: fade-top 3s ease-in-out forwards;  /* Animation properties */
+}
+
+@keyframes fade-top {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);  /* Translate element 100% upwards */
+  }
+  to {
+    opacity: 1;  /* Fully visible */
+    transform: translateY(0);  /* Reset translation */
+  }
+}
